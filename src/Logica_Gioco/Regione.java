@@ -48,6 +48,12 @@ public class Regione
 		this.at_ID = ID;
 	}
 	
+	/**
+	 * Get Regione's land type
+	 * 
+	 * @author Mirko
+	 * @return an abbrevetion of the Regione's type
+	 */
 	public String Get_Tipo_Terreno()
 	{
 		return this.at_tipo.get_Abbreviazione();
